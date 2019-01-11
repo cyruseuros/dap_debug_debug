@@ -29,12 +29,12 @@ class CustomerCounterTest {
         assertEquals(3, testCounter.getNextCustomer());
     }
 
-//    @Test
-//    void testNextCustomerRollAround() {
-//        for(int i = 0; i < CustomerCounter.MAX_CUSTOMER_NUMBER; i++) {
-//            testCounter.nextCustomer();
-//        }
-//
-//        assertEquals(1, testCounter.getNextCustomer());
-//    }
+    @Test
+    void testNextCustomerRollAround() {
+        for(int i = 0; i < CustomerCounter.MAX_CUSTOMER_NUMBER; i++) {
+            testCounter.nextCustomer();
+        }
+
+        assertEquals(1, testCounter.getNextCustomer());
+    }
 }
