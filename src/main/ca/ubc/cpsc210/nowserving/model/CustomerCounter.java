@@ -20,7 +20,8 @@ public class CustomerCounter {
     // MAX_CUSTOMER_NUMBER, in which case it is reset to 1
     public void nextCustomer() {
         nextCustomer++;
-        if (nextCustomer >= MAX_CUSTOMER_NUMBER)
+        if (nextCustomer >= MAX_CUSTOMER_NUMBER) {
             nextCustomer = 1;
+        }
     }
 }
