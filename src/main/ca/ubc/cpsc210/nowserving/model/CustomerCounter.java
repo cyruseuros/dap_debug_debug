@@ -21,7 +21,7 @@ public class CustomerCounter {
     public void nextCustomer() {
         nextCustomer++;
         if (nextCustomer >= MAX_CUSTOMER_NUMBER) {
-            nextCustomer = 1;
+            nextCustomer = 0;
         }
     }
 }
