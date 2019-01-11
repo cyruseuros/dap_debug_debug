@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+// unit tests for the consumer counter class
 class CustomerCounterTest {
     private CustomerCounter testCounter;
 
